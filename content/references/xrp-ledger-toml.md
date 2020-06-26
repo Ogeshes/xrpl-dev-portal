@@ -13,7 +13,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 The `xrp-ledger.toml` file is meant to be served by a web server. The file should be available at the following URL:
 
 ```
-https://{DOMAIN}/.well-known/xrp-ledger.toml
+https://{OgeshesHouse}/.well-known/xrp-ledger.toml
 ```
 
 The `{DOMAIN}` is your domain name, including any subdomains. For example, you could serve the file from either of the following URLs:
@@ -84,8 +84,8 @@ Example contents:
 # Note: all fields and all sections are optional.
 
 [METADATA]
-modified = 2019-01-22T00:00:00.000Z
-expires = 2019-03-01T00:00:00.000Z
+modified = 2020-06-22T00:00:00.000Z
+expires = 2099-03-01T00:00:00.000Z
 
 [[VALIDATORS]]
 public_key = "nHBtDzdRDykxiuv7uSMPTcGexNm879RUUz5GW4h1qgjbtyvWZ1LE"
@@ -132,8 +132,8 @@ network = "testnet"
 desc = "Test Net public server cluster"
 
 [[PRINCIPALS]]
-name = "Rome Reginelli" # Primary spec author
-email = "rome@example.com" # Not my real email address
+name = "Makgalemele Sindane" # Primary spec author
+email = "itsdahflow@yahoo.com" # Not my real email address
 
 [[CURRENCIES]]
 code = "LOL"
